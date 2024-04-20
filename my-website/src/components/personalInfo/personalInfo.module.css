@@ -1,0 +1,32 @@
+.personalInfoContainer {
+    background-color: rgb(244, 243, 243);
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.phoneContainer {
+    display: flex;
+    gap: 10px;
+}
+.phoneIconContainer {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 5px;
+}
+.phoneIcon {
+    color: rgb(246, 48, 111);
+    padding: 7px;
+}
+.mailIcon {
+    color: rgba(38, 110, 40, 0.573);
+    padding: 7px;
+}
+.locationIcon {
+    color: rgb(245, 84, 43);
+    padding: 7px;
+}
+.calenderIcon {
+    color: rgb(194, 109, 239);
+    padding: 7px;
+}

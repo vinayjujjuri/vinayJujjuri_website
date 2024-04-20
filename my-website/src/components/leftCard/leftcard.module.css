@@ -49,9 +49,9 @@
 }
 .personalInfoContainer {
     background-color: rgb(244, 243, 243);
-    padding: 10px;
+    padding: 20px;
     align-items: center;
-    border-radius: 7px;
+    border-radius: 10px;
     margin-top: 10px;
 }
 .phoneContainer {
