@@ -10,9 +10,6 @@ export default function Navbar() {
                 <img src='https://st3.depositphotos.com/27847728/35061/v/600/depositphotos_350619152-stock-illustration-creative-letter-logo-vector-template.jpg' className={styles.logo} />
                 <p>Vinay Jujjuri</p>
             </div>
-            <button className={styles.hamburger} onClick={() => setIsOpen(!isOpen)}>
-                &#9776;
-            </button>
             <ul className={`${styles.navLinks} ${isOpen ? styles.showMenu : ''}`}>
                 <li className={styles.navItem} onClick={() => setIsOpen(false)}>
                     Home
@@ -24,9 +21,19 @@ export default function Navbar() {
                     Contact
                 </li>
                 <li className={styles.navItem} onClick={() => setIsOpen(false)}>
+                    Education Qualification
+                </li>
+                <li className={styles.navItem} onClick={() => setIsOpen(false)}>
+                    Experience
+                </li>
+                <li className={styles.navItem} onClick={() => setIsOpen(false)}>
                     Follow me
                 </li>
             </ul>
+            <button className={styles.hamburger} onClick={() => setIsOpen(!isOpen)}>
+                &#9776;
+            </button>
+            
         </nav>
     );
 };

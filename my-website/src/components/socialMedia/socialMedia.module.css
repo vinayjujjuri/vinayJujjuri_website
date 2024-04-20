@@ -1,0 +1,24 @@
+.youtubeIcon {
+    color: red;
+    padding: 4px;
+}
+.linkedInIcon {
+    color: 	#0077B5;
+    padding: 4px;
+}
+.iconBg {
+    background-color: rgb(244, 243, 243);
+    border-radius: 5px;
+    
+}
+.instaIcon {
+    color: rgb(241, 91, 68);
+    padding: 4px;
+}
+.iconContainer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
