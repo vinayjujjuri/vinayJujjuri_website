@@ -11,7 +11,7 @@ function Router() {
             {/* <Navbar/> */}
             <Layout>
                 <Routes>
-                <Route path="/" element={<AboutMeComponent/>} />
+                <Route path="/vinayJujjuri_website" element={<AboutMeComponent/>} />
                 </Routes>
             </Layout>
             </BrowserRouter>
