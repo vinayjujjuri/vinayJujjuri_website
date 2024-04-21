@@ -8,6 +8,7 @@ import ContactPageIcon from '@mui/icons-material/ContactPage';
 export function RightCardComponent() {
     const currentPath = window.location.pathname;
     const navigate = useNavigate();
+    console.log(currentPath,"current")
 
     const onClickNavigate = (path: string) => {
         navigate(path);
