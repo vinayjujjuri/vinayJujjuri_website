@@ -15,7 +15,7 @@ export function RightCardComponent() {
 
     return (
         <div className={styles.rightCardContainer}>
-            <div className={currentPath === '/vinayJujjuri_website' ? `${styles.iconContainer} ${styles.active}` : styles.iconContainer} onClick={() => onClickNavigate("/")}>
+            <div className={currentPath === '/vinayJujjuri_website' ? `${styles.iconContainer} ${styles.active}` : styles.iconContainer} onClick={() => onClickNavigate("/vinayJujjuri_website")}>
                 <PersonIcon sx={{ color: currentPath === '/vinayJujjuri_website' ? "white" : "#262625" }} />
                 <div style={{ color: currentPath === '/vinayJujjuri_website' ? "white" : "#262625" }}>About Me</div>
             </div>
