@@ -1,6 +1,6 @@
 {
   "name": "my-website",
-  "home": "https://vinayjujjuri.github.io/vinayJujjuri_website",
+  "home": "vinayJujjuri_website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
