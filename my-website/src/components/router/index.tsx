@@ -3,16 +3,38 @@ import Navbar from "../navbar/navbar";
 import { LeftCardComponent } from "../leftCard/leftcard";
 import { Layout } from "../layout/layout";
 import AboutMeComponent from "../aboutMe/aboutMe";
+import { useState } from "react";
 
 function Router() {
+    const [componentName, setComponentName] = useState<string>("about me");
+
+    const onClickChangeTab = (name:string) => {
+        setComponentName(name);
+    }
+
+    // Function to determine which component to render
+    const renderComponent = () => {
+        switch (componentName) {
+            case "resume":
+                return <p>Resume</p>;
+            case "contacts":
+                return <p>Contact</p>;
+                case "works":
+                return <p>works</p>;
+            case "about me":
+                return <AboutMeComponent />;
+            default:
+                return <AboutMeComponent />;
+        }
+    };
+
+
+
     return (
         <>
             <BrowserRouter>
-            {/* <Navbar/> */}
-            <Layout>
-                <Routes>
-                <Route path="/vinayJujjuri_website" element={<AboutMeComponent/>} />
-                </Routes>
+            <Layout setComponentName={setComponentName} onClick={onClickChangeTab} componentName={componentName}>
+                {renderComponent()}
             </Layout>
             </BrowserRouter>
         </>);

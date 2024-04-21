@@ -5,6 +5,9 @@ import { RightCardComponent } from "../rightCard/rightCard";
 
 interface LayoutProps {
     children?: React.ReactNode; 
+    onClick?: (name:string) => void; 
+    setComponentName: React.Dispatch<React.SetStateAction<string>>;
+    componentName:string;
 }
 
 export function Layout(props: LayoutProps) {
@@ -12,7 +15,7 @@ export function Layout(props: LayoutProps) {
         <div className={styles.layoutContainer}>
             <LeftCardComponent />
             <main>{props.children}</main> 
-            <RightCardComponent/>
+            <RightCardComponent setComponentName={props.setComponentName} onClick={props.onClick} componentName={props.componentName}/>
         </div>
     );
 }
