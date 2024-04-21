@@ -30,3 +30,11 @@
     color: rgb(194, 109, 239);
     padding: 7px;
 }
+.labelName {
+    font-size: 12px;
+    color: rgb(81, 80, 80);
+}
+.labelDetails {
+    font-size: 14px;
+    color: rgb(46, 46, 46);
+}

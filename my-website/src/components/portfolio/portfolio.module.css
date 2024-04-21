@@ -1,6 +1,8 @@
 .projectDescription {
     color: black;
     font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .container {
     background-color: white;
@@ -9,9 +11,29 @@
     padding: 20px;
     grid-template-columns: repeat(2, 1fr);
 }
-.carsContainer {
-    background-color: rgb(245, 200, 187);
+.oddContainer {
+    background-color: rgb(245, 211, 201);
     padding: 20px;
     border-radius: 5px;
     line-height: 18px;
+    box-shadow: 0px 2px 20px 0px rgba(211, 210, 210, 0.8);
+}
+
+.evenContainer {
+    background-color: rgb(206, 229, 236);
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 18px;
+    box-shadow: 0px 2px 20px 0px rgba(211, 210, 210, 0.8);
+}
+.link {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: end;
+    margin-top: auto;
+}
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }

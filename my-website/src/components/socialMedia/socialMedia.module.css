@@ -9,7 +9,7 @@
 .iconBg {
     background-color: rgb(244, 243, 243);
     border-radius: 5px;
-    
+    cursor: pointer;
 }
 .instaIcon {
     color: rgb(241, 91, 68);

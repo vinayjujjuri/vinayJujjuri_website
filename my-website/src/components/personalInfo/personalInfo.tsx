@@ -11,8 +11,8 @@ function PersonalInfoComponent() {
                 <PhoneAndroidIcon className={styles.phoneIcon}/>
             </div>
             <div>
-                <label>Phone</label>
-                <div>+91 8919437651</div>
+                <label className={styles.labelName}>Phone</label>
+                <div className={styles.labelDetails}>+91-8919437651</div>
             </div>
         </div>
         <hr/>
@@ -21,8 +21,8 @@ function PersonalInfoComponent() {
                 <ContactMailIcon className={styles.mailIcon}/>
             </div>
             <div>
-                <label>Email</label>
-                <div>vinay.juj@gmail.com</div>
+                <label className={styles.labelName}>Email</label>
+                <div className={styles.labelDetails}>vinay.juj@gmail.com</div>
             </div>
         </div>
         <hr/>
@@ -31,8 +31,8 @@ function PersonalInfoComponent() {
                 <LocationOnIcon className={styles.locationIcon}/>
             </div>
             <div>
-                <label>Location</label>
-                <div>Telangana, IN</div>
+                <label className={styles.labelName}>Location</label>
+                <div className={styles.labelDetails}>Telangana, IN</div>
             </div>
         </div>
         <hr/>
@@ -41,8 +41,8 @@ function PersonalInfoComponent() {
                 <CalendarMonthIcon className={styles.calenderIcon}/>
             </div>
             <div>
-                <label>Birthday</label>
-                <div>May 10, 1999</div>
+                <label className={styles.labelName}>Birthday</label>
+                <div className={styles.labelDetails}>May 10, 1999</div>
             </div>
         </div>
     </div> );
