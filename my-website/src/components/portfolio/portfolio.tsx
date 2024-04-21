@@ -53,10 +53,13 @@ function PortfolioComponent() {
     };
 
     return (
+        <div className={styles.mainContainer}>
+        <div className={styles.header}>Projects I have done</div>
         <div className={styles.container}>
             {hcccarsProjectCard()}
             {hintsProjectCard()}
             {mbkProjectCard()}
+        </div>
         </div>
     );
 }

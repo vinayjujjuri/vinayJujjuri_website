@@ -31,10 +31,10 @@ export function RightCardComponent(props :RightCardProps) {
                 <BusinessCenterIcon sx={{ color: props.componentName === 'works' ? "white" : "#262625" }} />
                 <div style={{ color: props.componentName === 'works' ? "white" : "#262625" }}>Works</div>
             </div>
-            <div className={props.componentName === 'contacts' ? `${styles.iconContainer} ${styles.active}` : styles.iconContainer} onClick={() => onClickNavigate("contacts")}>
+            {/* <div className={props.componentName === 'contacts' ? `${styles.iconContainer} ${styles.active}` : styles.iconContainer} onClick={() => onClickNavigate("contacts")}>
                 <ContactPageIcon sx={{ color: props.componentName === 'contacts' ? "white" : "#262625" }} />
                 <div style={{ color: props.componentName === 'contacts' ? "white" : "#262625" }}>Contacts</div>
-            </div>
+            </div> */}
         </div>
     )
 }
