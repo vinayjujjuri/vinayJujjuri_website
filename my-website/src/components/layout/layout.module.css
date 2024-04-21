@@ -1,7 +1,17 @@
 .layoutContainer {
-    display: flex;
-    gap: 20px;
+    /* display: flex;
+    gap: 20px; */
     background-color: azure;
     padding: 20px;
     height: 100%;
+    display: grid;
+    grid-template-columns: minmax(auto, 320px) 1fr minmax(auto, 140px);
+    gap: 20px;
+    align-items: start;
+}
+
+.leftCard, .rightCard {
+    position: sticky;
+    top: 0; /* Adjust this value based on your header height or desired offset */
+    
 }

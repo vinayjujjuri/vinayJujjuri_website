@@ -1,0 +1,17 @@
+.projectDescription {
+    color: black;
+    font-size: 13px;
+}
+.container {
+    background-color: white;
+    display: grid;
+    gap: 15px;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.carsContainer {
+    background-color: rgb(245, 200, 187);
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 18px;
+}

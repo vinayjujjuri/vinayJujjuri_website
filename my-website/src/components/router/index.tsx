@@ -4,6 +4,7 @@ import { LeftCardComponent } from "../leftCard/leftcard";
 import { Layout } from "../layout/layout";
 import AboutMeComponent from "../aboutMe/aboutMe";
 import { useState } from "react";
+import PortfolioComponent from "../portfolio/portfolio";
 
 function Router() {
     const [componentName, setComponentName] = useState<string>("about me");
@@ -20,7 +21,7 @@ function Router() {
             case "contacts":
                 return <p>Contact</p>;
                 case "works":
-                return <p>works</p>;
+                return <PortfolioComponent/>;
             case "about me":
                 return <AboutMeComponent />;
             default:
