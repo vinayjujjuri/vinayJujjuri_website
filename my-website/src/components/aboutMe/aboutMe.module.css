@@ -1,3 +1,25 @@
 .aboutMeContainer {
     background-color: #fff;
+    padding: 20px;
+}
+.headingContainer {
+    display: flex;
+    gap: 20px;
+}
+.about {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.line {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30%;
+    height: 2px;
+    background-color: rgb(13, 147, 147);
+    border-radius: 2px;
+}
+.contentContainer {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
