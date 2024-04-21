@@ -1,0 +1,17 @@
+.headingContainer {
+    display: flex;
+    gap: 20px;
+}
+.about {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.line {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30%;
+    height: 2px;
+    background-color: rgb(13, 147, 147);
+    border-radius: 2px;
+}

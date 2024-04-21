@@ -5,6 +5,7 @@ import { Layout } from "../layout/layout";
 import AboutMeComponent from "../aboutMe/aboutMe";
 import { useState } from "react";
 import PortfolioComponent from "../portfolio/portfolio";
+import { ResumeComponent } from "../resume/resume";
 
 function Router() {
     const [componentName, setComponentName] = useState<string>("about me");
@@ -17,7 +18,7 @@ function Router() {
     const renderComponent = () => {
         switch (componentName) {
             case "resume":
-                return <p>Resume</p>;
+                return <ResumeComponent/>;
             case "contacts":
                 return <p>Contact</p>;
                 case "works":
