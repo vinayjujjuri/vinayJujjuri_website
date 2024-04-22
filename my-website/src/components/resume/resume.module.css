@@ -15,3 +15,49 @@
     background-color: rgb(13, 147, 147);
     border-radius: 2px;
 }
+.mainContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.educationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+}
+.topContainer {
+    display: flex;
+    gap: 10px;
+}
+.subContainer {
+    display: flex;
+    gap: 10px;
+}
+.year {
+    color: rgb(119, 118, 118);
+    font-size: 12px;
+}
+.oddCardContainer {
+    background-color: rgb(249, 234, 222);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.cardContent {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardSubContent {
+    font-size: 12px;
+}
+.evenCardContainer {
+    background-color: rgb(222, 237, 249);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
