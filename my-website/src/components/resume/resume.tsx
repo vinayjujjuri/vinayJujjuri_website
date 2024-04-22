@@ -1,6 +1,7 @@
 import styles from './resume.module.css';
 import SchoolIcon from '@mui/icons-material/School';
 import HomeRepairServiceIcon from '@mui/icons-material/HomeRepairService';
+import Slider from '@mui/material/Slider';
 
 export function ResumeComponent() {
 
@@ -77,6 +78,51 @@ export function ResumeComponent() {
         )
     };
 
+    const workingSkillsContainer = () => {
+        return (
+            <div>
+                <div>
+                    Skills
+                </div>
+                <div className={styles.languagesContainer}>
+                    <div>Languagues</div>
+                    <div className={styles.container}>
+                        <div className={styles.imageContainer}>
+                            <img src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png' alt='javaScript' className={styles.image}/>
+                            <div>
+                                JavaScript
+                            </div>
+                        </div>
+                        <div className={styles.imageContainer}>
+                            <img src='https://www.tutorialsteacher.com/Content/images/home/typescript.svg' alt='TypeScript' className={styles.image}/>
+                            <div>
+                                TypeScript
+                            </div>
+                        </div>
+                        {/* <div>
+                            <img src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png' alt='HTML' className={styles.image}/>
+                        </div>
+                        <div>
+                            <img src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png' alt='CSS' className={styles.image}/>
+                        </div> */}
+                        {/* <div>
+                            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png' alt='SCSS' className={styles.image}/>
+                        </div> */}
+                        <div className={styles.imageContainer}>
+                            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdA5Qg0PWszi9ggP8cy-UWhi7BKkovE7IUr613nW8iRw&s' alt='Python' className={styles.image}/>
+                            <div>
+                                Python
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.technologiesContainer}>
+
+                </div>
+            </div>
+        )
+    }
+
     return (
         <div className={styles.mainContainer}>
             <div className={styles.headingContainer}>
@@ -90,6 +136,9 @@ export function ResumeComponent() {
                 <div style={{width:"50%"}}>
                 {experinceContainer()}
                 </div>
+            </div>
+            <div>
+                {workingSkillsContainer()}
             </div>
         </div>
     )

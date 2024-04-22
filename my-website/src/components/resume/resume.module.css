@@ -65,3 +65,29 @@
 .icon {
     color: rgb(52, 92, 141);
 }
+.image {
+    width: 90px;
+    height: 90px; 
+    border-radius: 10px;
+}
+.languagesContainer {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.container {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+}
+.imageContainer {
+    text-align: center;
+    background-color: rgb(252, 246, 219);
+    border-radius: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
