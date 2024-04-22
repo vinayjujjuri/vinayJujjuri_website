@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vinayJujjuri_website/static/css/main.eacf9afd.css",
-    "main.js": "/vinayJujjuri_website/static/js/main.31f11bfd.js",
+    "main.css": "/vinayJujjuri_website/static/css/main.a6554e7b.css",
+    "main.js": "/vinayJujjuri_website/static/js/main.e28fee00.js",
     "static/js/453.7476e934.chunk.js": "/vinayJujjuri_website/static/js/453.7476e934.chunk.js",
     "index.html": "/vinayJujjuri_website/index.html",
-    "main.eacf9afd.css.map": "/vinayJujjuri_website/static/css/main.eacf9afd.css.map",
-    "main.31f11bfd.js.map": "/vinayJujjuri_website/static/js/main.31f11bfd.js.map",
+    "main.a6554e7b.css.map": "/vinayJujjuri_website/static/css/main.a6554e7b.css.map",
+    "main.e28fee00.js.map": "/vinayJujjuri_website/static/js/main.e28fee00.js.map",
     "453.7476e934.chunk.js.map": "/vinayJujjuri_website/static/js/453.7476e934.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eacf9afd.css",
-    "static/js/main.31f11bfd.js"
+    "static/css/main.a6554e7b.css",
+    "static/js/main.e28fee00.js"
   ]
 }
