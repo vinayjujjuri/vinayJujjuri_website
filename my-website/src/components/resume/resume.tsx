@@ -20,7 +20,7 @@ export function ResumeComponent() {
         )
     };
 
-    const eeperienceCard = () => {
+    const experienceCard = () => {
         return (
             <>
             <div className={styles.evenCardContainer}>
@@ -53,7 +53,7 @@ export function ResumeComponent() {
         return (
             <div className={styles.educationContainer}>
                 <div className={styles.topContainer}>
-                    <SchoolIcon/>
+                    <SchoolIcon className={styles.icon}/>
                     <div>
                         Education
                     </div>
@@ -67,12 +67,12 @@ export function ResumeComponent() {
         return (
             <div className={styles.educationContainer}>
                 <div className={styles.topContainer}>
-                    <SchoolIcon/>
+                    <HomeRepairServiceIcon className={styles.icon}/>
                     <div>
                         Experience
                     </div>
                 </div>
-                {eeperienceCard()}
+                {experienceCard()}
             </div>
         )
     };
@@ -84,8 +84,12 @@ export function ResumeComponent() {
                 <div className={styles.line}></div>
             </div>
             <div className={styles.subContainer}>
+                <div style={{width:"50%"}}>
                 {educationContainer()}
+                </div>
+                <div style={{width:"50%"}}>
                 {experinceContainer()}
+                </div>
             </div>
         </div>
     )
