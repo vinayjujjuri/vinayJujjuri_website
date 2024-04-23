@@ -4,6 +4,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import PersonalInfoComponent from '../personalInfo/personalInfo';
 import SocialMediaComponent from '../socialMedia/socialMedia';
+import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
 export function LeftCardComponent():JSX.Element {
 
@@ -18,11 +19,35 @@ export function LeftCardComponent():JSX.Element {
         )
     };
 
+    const downloadCV = () => {
+        const link = document.createElement('a');
+        link.href = '/pdf/resume.pdf'; // Make sure the path here matches the location of your CV file in the public folder
+        link.download = 'Vinay_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
+    const downloadButton = () => {
+        return (
+            <div className={styles.buttonContainer}>
+                <button className={styles.downloadButton} onClick={downloadCV}>
+                    <div className={styles.iconText}>
+                    <CloudDownloadIcon />
+                    Download CV
+                    </div>
+                </button>
+                {/* <Button startIcon={<CloudDownloadIcon />} className={styles.downloadButton}>Download CV</Button> */}
+            </div>
+        )
+    };
+
     return (
         <div className={styles.leftCardContainer}>
             {nameAndRole()}
             <SocialMediaComponent/>
             <PersonalInfoComponent/>
+            {downloadButton()}
         </div>
     )
 }

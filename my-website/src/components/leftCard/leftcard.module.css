@@ -79,3 +79,23 @@
     color: rgb(194, 109, 239);
     padding: 7px;
 }
+.downloadButton {
+    background-color: rgb(46, 113, 248);
+    border-radius: 5px;
+    color: #fff;
+    border-width: 0px;
+    cursor: pointer;
+    padding: 10px;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.iconText {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
