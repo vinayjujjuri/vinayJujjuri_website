@@ -13,7 +13,7 @@ export function LeftCardComponent():JSX.Element {
             <div className={styles.nameContainer}>
                 <div className={styles.name}>Vinay Jujjuri</div>
                 <div className={styles.roleContainer}>
-                    Web Developer
+                    Front - End Developer
                 </div>
             </div>
         )
