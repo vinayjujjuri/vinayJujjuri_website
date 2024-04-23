@@ -145,3 +145,28 @@
     font-size: 20px;
     font-weight: 600;
 }
+@media only screen and (max-width: 480px) {
+    .image {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .skillName {
+        font-size: 10px;
+    }
+    .skillHeader {
+        font-size: 16px;
+    }
+    .skillHeadings {
+        font-size: 14px;
+    }
+    .cardSubContent {
+        font-size: 10px;
+    }
+    .about {
+        font-size: 20px;
+    }
+    .cardContent {
+        font-size: 12px;
+    }
+ }
