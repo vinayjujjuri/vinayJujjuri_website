@@ -10,7 +10,7 @@ function PortfolioComponent() {
     const hcccarsProjectCard = () => {
         return (
             <div className={styles.oddContainer}>
-                <div>Content Archival & Retrieval System ( CARS )</div>
+                <div>Content Archival & Retrieval System (CARS)</div>
                 <div className={styles.projectDescription}>
                     The Content Archival & Retrieval System (CARS) is a dedicated platform designed to systematically store and retrieve temple data and legacy from its inception. Offering a comprehensive approach to data accessibility, users can efficiently search for information through three distinct flows: Chronological, Event-based, and Adhoc. To ensure the security of sensitive data, CARS employs a Role-Based Access Control (RBAC) system, allowing exclusive access to temple board members. This robust system not only preserves the rich history of the temple but also facilitates efficient and secure data retrieval for authorized users.
                 </div>
