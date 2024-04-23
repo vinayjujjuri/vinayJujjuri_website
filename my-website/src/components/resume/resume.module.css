@@ -2,11 +2,13 @@
     display: flex;
     gap: 20px;
 }
+
 .about {
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
+
 .line {
     margin-top: auto;
     margin-bottom: auto;
@@ -15,30 +17,36 @@
     background-color: rgb(13, 147, 147);
     border-radius: 2px;
 }
+
 .mainContainer {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
 }
+
 .educationContainer {
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: start;
 }
+
 .topContainer {
     padding-top: 20px;
     display: flex;
     gap: 10px;
 }
+
 .subContainer {
     display: flex;
     gap: 10px;
 }
+
 .year {
     color: rgb(119, 118, 118);
     font-size: 12px;
 }
+
 .oddCardContainer {
     background-color: rgb(249, 237, 249);
     padding: 20px;
@@ -47,13 +55,16 @@
     flex-direction: column;
     gap: 5px;
 }
+
 .cardContent {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .cardSubContent {
     font-size: 12px;
 }
+
 .evenCardContainer {
     background-color: rgb(222, 237, 249);
     padding: 20px;
@@ -62,41 +73,75 @@
     flex-direction: column;
     gap: 5px;
 }
+
 .icon {
     color: rgb(52, 92, 141);
 }
+
 .image {
     width: 90px;
-    height: 90px; 
+    height: 90px;
     border-radius: 10px;
 }
+
 .languagesContainer {
-    background-color: antiquewhite;
+    background-color: #B9D9EB;
     border-radius: 8px;
     padding: 20px;
     margin-top: 10px;
 }
+
 .technologiesContainer {
-    background-color: rgb(225, 250, 237);
+    background-color: #B0C4DE;
     border-radius: 8px;
     padding: 20px;
     margin-top: 10px;
 }
+
+.uiLibrariesContainer {
+    background-color: #AFDBF5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.tatContainer {
+    background-color: #E1EBEE;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
 .container {
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 20px;
 }
+
 .imageContainer {
     text-align: center;
-    background-color: rgb(252, 246, 219);
+    background-color: #F0F8FF;
     border-radius: 9px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.skillsMainContainer{
-    background-color: rgb(245, 151, 151);
+.skillsMainContainer {
+    background-color: #F0F8FF;
     padding: 20px;
+}
+
+.skillHeadings {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.skillName {
+    font-size: 14px;
+}
+
+.skillHeader {
+    font-size: 20px;
+    font-weight: 600;
 }
