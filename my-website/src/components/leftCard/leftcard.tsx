@@ -37,7 +37,6 @@ export function LeftCardComponent():JSX.Element {
                     Download CV
                     </div>
                 </button>
-                {/* <Button startIcon={<CloudDownloadIcon />} className={styles.downloadButton}>Download CV</Button> */}
             </div>
         )
     };
