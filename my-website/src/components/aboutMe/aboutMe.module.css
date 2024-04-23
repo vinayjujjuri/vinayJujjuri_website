@@ -63,3 +63,8 @@
 .subTagname {
     font-weight: bold;
 }
+@media only screen and (max-width: 480px) {
+    .contentContainer {
+        font-size: 13px;
+    }
+}
