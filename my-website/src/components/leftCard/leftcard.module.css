@@ -23,62 +23,6 @@
     font-family: sans-serif;
     font-size: 12px;
 }
-.youtubeIcon {
-    color: red;
-    padding: 4px;
-}
-.linkedInIcon {
-    color: 	#0077B5;
-    padding: 4px;
-}
-.iconBg {
-    background-color: rgb(244, 243, 243);
-    border-radius: 5px;
-    
-}
-.instaIcon {
-    color: rgb(241, 91, 68);
-    padding: 4px;
-}
-.iconContainer {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-}
-.personalInfoContainer {
-    background-color: rgb(244, 243, 243);
-    padding: 20px;
-    align-items: center;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-.phoneContainer {
-    display: flex;
-    gap: 10px;
-}
-.phoneIconContainer {
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    border-radius: 5px;
-}
-.phoneIcon {
-    color: rgb(246, 48, 111);
-    padding: 7px;
-}
-.mailIcon {
-    color: rgba(38, 110, 40, 0.573);
-    padding: 7px;
-}
-.locationIcon {
-    color: rgb(245, 84, 43);
-    padding: 7px;
-}
-.calenderIcon {
-    color: rgb(194, 109, 239);
-    padding: 7px;
-}
 .downloadButton {
     background-color: rgb(46, 113, 248);
     border-radius: 5px;

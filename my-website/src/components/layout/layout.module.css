@@ -1,17 +1,26 @@
 .layoutContainer {
-    /* display: flex;
-    gap: 20px; */
     background-color: azure;
     padding: 20px;
     height: 100%;
     display: grid;
-    grid-template-columns: minmax(auto, 320px) 1fr minmax(auto, 140px);
+    grid-template-columns: 1fr; /* Single column layout */
     gap: 20px;
     align-items: start;
 }
 
 .leftCard, .rightCard {
-    position: sticky;
-    top: 0; /* Adjust this value based on your header height or desired offset */
-    
+    position: relative; /* Normal positioning on mobile */
+    top: 0;
+}
+@media (min-width: 768px) {
+    .layoutContainer {
+        display: grid;
+        grid-template-columns: minmax(auto, 320px) 1fr minmax(auto, 140px);
+        gap: 20px;
+    }
+
+    .leftCard, .rightCard {
+        position: sticky;
+        top: 0; /* Adjust this value based on your header height or desired offset */
+    }
 }
