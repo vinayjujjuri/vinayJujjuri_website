@@ -21,7 +21,7 @@ export function LeftCardComponent():JSX.Element {
 
     const downloadCV = () => {
         const link = document.createElement('a');
-        link.href = '/pdf/resume.pdf'; // Make sure the path here matches the location of your CV file in the public folder
+        link.href = './pdf/resume.pdf'; // Make sure the path here matches the location of your CV file in the public folder
         link.download = 'Vinay_Resume.pdf';
         document.body.appendChild(link);
         link.click();
